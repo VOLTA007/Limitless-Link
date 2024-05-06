@@ -16,7 +16,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
+                                className="block py-2 px-3 text-black rounded hover:bg-gray-100"
                                 aria-current="page"
                             >
                                 What We Do
@@ -25,7 +25,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
+                                className="block py-2 px-3 text-black rounded hover:bg-gray-100"
                             >
                                 Case
                             </a>
@@ -33,7 +33,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
+                                className="block py-2 px-3 text-black rounded hover:bg-gray-100"
                             >
                                 Blog
                             </a>
@@ -41,7 +41,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
+                                className="block py-2 px-3 text-black rounded hover:bg-gray-100"
                             >
                                 Contact
                             </a>
