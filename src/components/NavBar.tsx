@@ -51,7 +51,7 @@ export const NavBar = () => {
                 <div className="flex items-center space-x-3 md:space-x-0">
                     <button
                         type="button"
-                        className="text-black md:flex hidden bg-gradient-to-r from-[#B57737] via-[#ECC974] to-[#F7D980] font-bold py-2 px-4 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[75px] text-sm text-center pt-[16px] pr-[32px] pb-[16px] pl-[32px]"
+                        className="text-black md:flex hidden bg-gradient-to-r from-[#B57737] via-[#ECC974] to-[#F7D980] font-bold py-2 px-4  rounded-[75px] text-sm text-center pt-[16px] pr-[32px] pb-[16px] pl-[32px]"
                     >
                         Hire Us
                     </button>
