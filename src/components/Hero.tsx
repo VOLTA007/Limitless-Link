@@ -6,7 +6,7 @@ import { Intsa } from '@/svg/Intsa'
 
 export const Hero = () => {
     return (
-        <section>
+        <section className='mb-[64px]'>
             <div className="flex justify-center items-center">
                 <div className="h-[366px] flex justify-between flex-col z-10">
                     <h1 className="text-[48px] text-balance font-[700]">
