@@ -1,11 +1,13 @@
+import { Hero } from '@/components/Hero'
 import { NavBar } from '@/components/NavBar'
-// import { NextUIProvider } from '@nextui-org/react'
 
-export default function Home({ children }: { children: React.ReactNode }) {
+
+
+export default function Home() {
     return (
         <main>
             <NavBar />
-            {children}
+            <Hero />
         </main>
     )
 }

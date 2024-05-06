@@ -3,9 +3,9 @@ import React from 'react'
 
 export const NavBar = () => {
     return (
-        <nav className="bg-white border-gray-200">
+        <nav className="bg-white border-gray-200 font-[700] sticky">
             <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-8">
                     <a
                         href="#"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -16,7 +16,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
                                 aria-current="page"
                             >
                                 What We Do
@@ -25,7 +25,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
                             >
                                 Case
                             </a>
@@ -33,7 +33,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
                             >
                                 Blog
                             </a>
@@ -41,7 +41,7 @@ export const NavBar = () => {
                         <li>
                             <a
                                 href="#"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white"
                             >
                                 Contact
                             </a>
@@ -51,14 +51,14 @@ export const NavBar = () => {
                 <div className="flex items-center space-x-3 md:space-x-0">
                     <button
                         type="button"
-                        className="text-white md:flex hidden bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="text-black md:flex hidden bg-gradient-to-r from-[#B57737] via-[#ECC974] to-[#F7D980] font-bold py-2 px-4 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[75px] text-sm text-center pt-[16px] pr-[32px] pb-[16px] pl-[32px]"
                     >
                         Hire Us
                     </button>
                     <button
                         data-collapse-toggle="navbar-cta"
                         type="button"
-                        className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                         aria-controls="navbar-cta"
                         aria-expanded="false"
                     >
