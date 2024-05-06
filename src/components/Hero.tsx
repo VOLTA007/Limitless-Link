@@ -1,6 +1,6 @@
 import React from 'react'
 import { Dummy1 } from '@/svg/Dummy1'
-import { Bg } from '@/svg/bg'
+import { Bg } from '@/svg/Bg'
 import { Bb } from '@/svg/Bb'
 import { Intsa } from '@/svg/Intsa'
 
