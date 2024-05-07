@@ -1,4 +1,3 @@
-import { Logo } from '@/svg/Logo'
 import React from 'react'
 
 export const NavBar = () => {
@@ -10,7 +9,7 @@ export const NavBar = () => {
                         href="#"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
-                        <Logo />
+                        <img src="/Logo.png"></img>
                     </a>
                     <ul className="md:flex space-x-3 hidden md:space-x-8 rtl:space-x-reverse">
                         <li>

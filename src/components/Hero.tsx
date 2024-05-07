@@ -7,7 +7,7 @@ import React from 'react'
 export const Hero = () => {
     return (
         <section className="mb-[64px]">
-            <div className="flex justify-center items-center flex-col md:flex-row">
+            <div className="flex justify-center items-center flex-col xl:flex-row">
                 <div className="h-[366px] md:flex justify-between md:flex-col flex-row z-10">
                     <h1 className="text-[48px] md:text-wrap font-[700] text-center">
                         We help people with Creative process
@@ -24,11 +24,11 @@ export const Hero = () => {
                         </button>
                     </div>
                 </div>
-                <div className="md:relative hidden md:block">
+                <div className="xl:relative hidden xl:block">
                     <div className="w-[750px]">
                         <img
                             src="/Dummy2.png"
-                            className="relative z-10 mx-auto rounded-lg md:w-[665px]"
+                            className="relative z-10 mx-auto rounded-lg xl:w-[665px]"
                         />
                     </div>
                     <div>
@@ -50,7 +50,7 @@ export const Hero = () => {
                         />
                     </div>
                 </div>
-                <div className="md:hidden mt-10">
+                <div className="xl:hidden mt-10 max-[351px]:mt-[130px]">
                     <img
                         src="/Dummy1.png"
                         className="relative z-10 mx-auto rounded-lg w-[343px] mr-[50px]"
