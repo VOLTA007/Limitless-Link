@@ -5,7 +5,7 @@ export const Hero = () => {
         <section className="mb-[64px]">
             <div className="flex justify-center items-center flex-col xl:flex-row">
                 <div className="h-[366px] md:flex justify-between md:flex-col flex-row z-10">
-                    <h1 className="text-[48px] md:text-wrap font-[700] text-center">
+                    <h1 className="md:text-[48px] text-[36px] md:text-wrap font-[700] text-center">
                         We help people with Creative process
                     </h1>
                     <p className="text-black text-opacity-50 text-[24px] leading-6 font-[100] text-center mt-6">
@@ -46,7 +46,7 @@ export const Hero = () => {
                         />
                     </div>
                 </div>
-                <div className="xl:hidden mt-10 max-[351px]:mt-[130px]">
+                <div className="xl:hidden max-[351px]:mt-[130px]">
                     <img
                         src="/Dummy1.png"
                         className="relative z-10 mx-auto rounded-lg w-[343px] mr-[50px]"
