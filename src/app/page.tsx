@@ -2,9 +2,6 @@ import { Hero } from '@/components/Hero'
 import { Hero2 } from '@/components/Hero2'
 import { NavBar } from '@/components/NavBar'
 
-
-
-
 export default function Home() {
     return (
         <main>
@@ -14,7 +11,6 @@ export default function Home() {
         </main>
     )
 }
-
 
 // git add .
 // git commit -m "Commit"
