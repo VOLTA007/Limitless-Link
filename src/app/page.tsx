@@ -3,6 +3,7 @@ import { Hero2 } from '@/components/Hero2'
 import { Hero3 } from '@/components/Hero3'
 import { Hero4 } from '@/components/Hero4'
 import { Hero5 } from '@/components/Hero5'
+import { LastComp } from '@/components/LastComp'
 import { NavBar } from '@/components/NavBar'
 
 
@@ -17,6 +18,7 @@ export default function Home() {
             <Hero3 />
             <Hero4 />
             <Hero5 />
+            <LastComp />
         </main>
     )
 }
