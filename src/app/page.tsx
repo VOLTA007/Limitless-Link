@@ -1,6 +1,8 @@
 import { Hero } from '@/components/Hero'
 import { Hero2 } from '@/components/Hero2'
+import { Hero3 } from '@/components/Hero3'
 import { NavBar } from '@/components/NavBar'
+
 
 export default function Home() {
     return (
@@ -8,6 +10,7 @@ export default function Home() {
             <NavBar />
             <Hero />
             <Hero2 />
+            <Hero3 />
         </main>
     )
 }
