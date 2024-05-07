@@ -19,29 +19,32 @@ export const Footer = () => {
                         </button>
                     </div>
                 </div>
-                <div className="grid  md:grid-cols-5 max-x:grid-cols-3 max-xs:grid-cols-1 gap-5 grid-cols-1 w-fit mx-auto">
+                <div className="grid  md:grid-cols-5 max-x:grid-cols-3 max-xs:grid-cols-1 gap-5 grid-cols-1 w-fit mx-auto py-10">
                     <div>
-                        <img src="/FooterLogo.png"></img>
+                        <img
+                            className="max-xs:mb-5"
+                            src="/FooterLogo.png"
+                        ></img>
                     </div>
-                    <div>
+                    <div className="grid gap-2 max-xs:mb-5">
                         <h1>Contact</h1>
                         <p>+0201150205454</p>
                         <p>+020123456789</p>
                         <p>info@limitless-link.com</p>
                     </div>
-                    <div>
+                    <div className="grid gap-2 max-xs:mb-5">
                         <h1>Service</h1>
                         <p>Product Design</p>
                         <p>Branding</p>
                         <p>Development</p>
                     </div>
-                    <div>
+                    <div className="grid gap-2 max-xs:mb-5">
                         <h1>Company</h1>
                         <p>About Us</p>
                         <p>Case</p>
                         <p>Blog</p>
                     </div>
-                    <div>
+                    <div className="grid gap-2 max-xs:mb-5">
                         <h1>Follow Us</h1>
                         <p>Facebook</p>
                         <p>Behance</p>
