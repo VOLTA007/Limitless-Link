@@ -3,7 +3,7 @@ import React from 'react'
 export const Hero3 = () => {
     return (
         <section className="mt-[125px]">
-            <div className="grid md:grid-cols-2 md:mx-[135px] grid-cols-1 mx-[30px] text-center">
+            <div className="grid md:grid-cols-2 md:mx-[235px] grid-cols-1 mx-[30px] text-center">
                 <div>
                     <p className="font-[700] mb:text-[12px] text-black text-opacity-50 mb-5 md:text-left">
                         CAPABILITIES
