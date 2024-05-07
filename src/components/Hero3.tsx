@@ -19,7 +19,7 @@ export const Hero3 = () => {
                         pitfalls.
                     </p>
                 </div>
-                <div className='mx-auto'>
+                <div className="mx-auto">
                     <img src="/Dummy3.png"></img>
                 </div>
             </div>

@@ -7,13 +7,11 @@ import { Hero5 } from '@/components/Hero5'
 import { LastComp } from '@/components/LastComp'
 import { NavBar } from '@/components/NavBar'
 
-
-
 export default function Home() {
     return (
         <main>
             <NavBar />
-            <div style={{paddingTop:'150px'}}></div>
+            <div style={{ paddingTop: '150px' }}></div>
             <Hero />
             <Hero2 />
             <Hero3 />
