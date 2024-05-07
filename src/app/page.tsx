@@ -8,6 +8,7 @@ export default function Home() {
     return (
         <main>
             <NavBar />
+            <div style={{paddingTop:'150px'}}></div>
             <Hero />
             <Hero2 />
             <Hero3 />
