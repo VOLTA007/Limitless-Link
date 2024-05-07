@@ -8,7 +8,12 @@ const config: Config = {
         './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                'max-x': { max: '959px' },
+                'max-xs': { max: '659px' }, 
+            },
+        },
     },
     plugins: [],
 }

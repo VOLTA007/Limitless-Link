@@ -2,7 +2,7 @@ import React from 'react'
 
 export const LastComp = () => {
     return (
-        <section className="mt-[250px]">
+        <section className="mt-[250px] mb-56">
             <div className="flex justify-center items-start flex-col md:mx-[235px] mx-[35px]">
                 <h1 className="font-[700] text-[30px] mb-5">Our Clients</h1>
                 <p className="font-[400] text-[18px]">

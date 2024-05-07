@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { Hero2 } from '@/components/Hero2'
 import { Hero3 } from '@/components/Hero3'
@@ -19,6 +20,7 @@ export default function Home() {
             <Hero4 />
             <Hero5 />
             <LastComp />
+            <Footer />
         </main>
     )
 }
