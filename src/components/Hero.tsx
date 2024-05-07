@@ -2,6 +2,8 @@
 import React from 'react'
 
 
+
+
 export const Hero = () => {
     return (
         <section className="mb-[64px]">
@@ -48,7 +50,7 @@ export const Hero = () => {
                         />
                     </div>
                 </div>
-                <div className='md:hidden mt-10'>
+                <div className="md:hidden mt-10">
                     <img
                         src="/Dummy1.png"
                         className="relative z-10 mx-auto rounded-lg w-[343px] mr-[50px]"
@@ -58,9 +60,9 @@ export const Hero = () => {
             <div className="flex gap-5 items-end">
                 <div className="bg-black bg-opacity-20 w-[250px] h-[1px] mb-3 mt-14 md:mt-0"></div>
                 <div className="flex gap-5">
-                    <img src="/be.png" />
-                    <img src="/bb.png" />
-                    <img src="/insta.png" />
+                    <img src="/be.png" className="w-[24px] h-[16px]" />
+                    <img src="/bb.png" className="w-[20px] h-[20px]" />
+                    <img src="/insta.png" className="w-[20px] h-[20px]" />
                 </div>
             </div>
         </section>
